@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content d-flex">
+            <div class="d-flex coluna">
+                <img class="logo-img" src="https://http2.mlstatic.com/D_NQ_NP_938904-MLB25612507471_052017-O.jpg" alt="">
+            </div>
+            <div class="d-flex coluna">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Seja bem-vindo</h2>
+                        <form action="">
+                            <input class="text-box" type="text" placeholder="Login">
+                            <input class="text-box" type="text" placeholder="Senha">
+                        </form>
+                        <strong class="esqueci-senha" href="">Esqueci minha Senha</strong>
+                        <button class="btn-logar">
+                            Logar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body> 
+<style>
+
+.container {
+    max-width: 1200px;
+    height: 100%;
+    display: block;
+    padding: 30px;
+}
+.content {
+    flex-direction: row;
+    align-items: center;
+}
+.text-box {
+    box-shadow: 0px 0px 1px 0px #000000f5;
+    border: 1px solid #0000006b;
+    border-radius: 2px;
+    height: 25px;
+    padding: 0 10px;
+    width:95%;
+    margin: 10px 0;
+}
+
+.coluna {
+    width: 50%;
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.logo-img {
+    margin: auto;
+}
+
+.card {
+    margin: auto;
+    box-shadow: 0px 1px 3px -1px #1a2c2c94;
+    padding: 10px 40px 40px 40px;
+    border-radius: 3px;
+    background-color: rgba(158, 197, 241, 0.096);
+}
+
+h2 {
+    font-family: none;
+}
+
+.btn-logar{
+    background-color: rgb(73, 129, 233);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+    float: right;
+    cursor: pointer;
+   
+}
+
+.esqueci-senha {   
+    color: rgb(73, 129, 233);
+    font-size: 13px; 
+    
+    cursor: pointer;
+}
+
+
+
+
+</style>
+</html>
