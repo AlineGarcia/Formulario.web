@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formulário</title>
 </head>
 <body>
@@ -17,85 +18,19 @@
                     <div class="card-body">
                         <h2>Seja bem-vindo</h2>
                         <form action="">
-                            <input class="text-box" type="text" placeholder="Login">
-                            <input class="text-box" type="text" placeholder="Senha">
+                            <input class="text-box" type="text" placeholder="Login" id="login">
+                            <input class="text-box" type="password" placeholder="Senha" id="senha">
                         </form>
                         <strong class="esqueci-senha" href="">Esqueci minha Senha</strong>
-                        <button class="btn-logar">
+                        <button class="btn-logar" id="botao">
                             Logar
                         </button>
                     </div>
+                    <p class="msg-validacao" id="msg"></p>
                 </div>
             </div>
         </div>
     </div>
+    <script src="./login.js"></script>
 </body> 
-<style>
-
-.container {
-    max-width: 1200px;
-    height: 100%;
-    display: block;
-    padding: 30px;
-}
-.content {
-    flex-direction: row;
-    align-items: center;
-}
-.text-box {
-    box-shadow: 0px 0px 1px 0px #000000f5;
-    border: 1px solid #0000006b;
-    border-radius: 2px;
-    height: 25px;
-    padding: 0 10px;
-    width:95%;
-    margin: 10px 0;
-}
-
-.coluna {
-    width: 50%;
-    height: 100%;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.logo-img {
-    margin: auto;
-}
-
-.card {
-    margin: auto;
-    box-shadow: 0px 1px 3px -1px #1a2c2c94;
-    padding: 10px 40px 40px 40px;
-    border-radius: 3px;
-    background-color: rgba(158, 197, 241, 0.096);
-}
-
-h2 {
-    font-family: none;
-}
-
-.btn-logar{
-    background-color: rgb(73, 129, 233);
-    border: none;
-    padding: 5px 10px;
-    border-radius: 2px;
-    float: right;
-    cursor: pointer;
-   
-}
-
-.esqueci-senha {   
-    color: rgb(73, 129, 233);
-    font-size: 13px; 
-    
-    cursor: pointer;
-}
-
-
-
-
-</style>
 </html>
