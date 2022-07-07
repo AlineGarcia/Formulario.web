@@ -33,10 +33,10 @@
 
 .card {
     margin: auto;
-    box-shadow: 0px 1px 3px -1px #1a2c2c94;
+    box-shadow: 0px 1px 3px -1px #1c20299f;
     padding: 10px 40px 40px 40px;
     border-radius: 3px;
-    background-color: rgba(158, 197, 241, 0.096);
+    background-color: #0d1116dc;
 }
 
 h2 {
@@ -44,7 +44,7 @@ h2 {
 }
 
 .btn-logar{
-    background-color: rgb(73, 129, 233);
+    background-color: rgb(65, 91, 207);
     border: none;
     padding: 5px 10px;
     border-radius: 2px;
@@ -54,7 +54,7 @@ h2 {
 }
 
 .esqueci-senha {   
-    color: rgb(73, 129, 233);
+    color: rgb(53, 108, 211);
     font-size: 13px; 
     
     cursor: pointer;
@@ -62,4 +62,36 @@ h2 {
 
 .msg-validacao {
     color: red;
+}
+
+.mb {
+    margin-bottom: 30px;
+}
+
+.botao-cadastro {
+    margin-right: 30px;
+}
+
+.card-cadastro {
+    width: 600px;
+    background-color: rgba(16, 23, 29, 0.438);
+    color: rgb(21, 54, 243);
+    
+}
+
+.cadastro {
+    font-size: 13px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor-fundo {
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.btn-voltar {
+    height: auto;
+    width: auto;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
