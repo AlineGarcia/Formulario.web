@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content d-flex">
+            <div class="d-flex coluna">
+                <img class="logo-img" src="https://http2.mlstatic.com/D_NQ_NP_938904-MLB25612507471_052017-O.jpg" alt="">
+            </div>
+            <div class="d-flex coluna">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Seja bem-vindo</h2>
+                        <form action="">
+                            <input class="text-box" type="text" placeholder="Login" id="login">
+                            <input class="text-box" type="password" placeholder="Senha" id="senha">
+                        </form>
+                        <strong class="esqueci-senha" href="">Esqueci minha Senha</strong>
+                        <button class="btn-logar" id="botao">
+                            Logar
+                        </button>
+                        <div id="btnCadastro" class="cadastro">
+                            <strong>Cadastre-se</strong>
+                        </div>
+                        
+                    </div>
+                    <p class="msg-validacao" id="msg"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body> 
+</html>

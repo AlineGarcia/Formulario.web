@@ -1,0 +1,97 @@
+.container {
+    max-width: 1200px;
+    height: 100%;
+    display: block;
+    padding: 30px;
+}
+.content {
+    flex-direction: row;
+    align-items: center;
+}
+.text-box {
+    box-shadow: 0px 0px 1px 0px #000000f5;
+    border: 1px solid #0000006b;
+    border-radius: 2px;
+    height: 25px;
+    padding: 0 10px;
+    width:95%;
+    margin: 10px 0;
+}
+
+.coluna {
+    width: 50%;
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.logo-img {
+    margin: auto;
+}
+
+.card {
+    margin: auto;
+    box-shadow: 0px 1px 3px -1px #1c20299f;
+    padding: 10px 40px 40px 40px;
+    border-radius: 3px;
+    background-color: #0d1116dc;
+}
+
+h2 {
+    font-family: none;
+}
+
+.btn-logar{
+    background-color: rgb(65, 91, 207);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+    float: right;
+    cursor: pointer;
+   
+}
+
+.esqueci-senha {   
+    color: rgb(53, 108, 211);
+    font-size: 13px; 
+    
+    cursor: pointer;
+}
+
+.msg-validacao {
+    color: red;
+}
+
+.mb {
+    margin-bottom: 30px;
+}
+
+.botao-cadastro {
+    margin-right: 30px;
+}
+
+.card-cadastro {
+    width: 600px;
+    background-color: rgba(16, 23, 29, 0.438);
+    color: rgb(21, 54, 243);
+    
+}
+
+.cadastro {
+    font-size: 13px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cor-fundo {
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.btn-voltar {
+    height: auto;
+    width: auto;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
